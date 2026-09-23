@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="210" viewBox="0 0 320 210">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05010f"/><stop offset="1" stop-color="#0b0628"/></linearGradient>
+  <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00f0ff"/><stop offset=".5" stop-color="#8a2be2"/><stop offset="1" stop-color="#ff00c8"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#00f0ff" stroke-opacity=".06"/></pattern>
+</defs>
+<rect width="320" height="210" rx="12" fill="url(#bg)"/>
+<rect width="320" height="210" rx="12" fill="url(#grid)"/>
+<rect x="1" y="1" width="318" height="208" rx="12" fill="none" stroke="url(#neon)" stroke-width="1.5"/>
+<g font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
+<text x="22" y="34" fill="#00f0ff" font-size="15" font-weight="700" filter="url(#glow)">&gt; top.languages</text>
+<rect x="22.0" y="52" width="124.2" height="10" fill="#00f0ff"/><rect x="146.2" y="52" width="114.9" height="10" fill="#ff00c8"/><rect x="261.1" y="52" width="22.4" height="10" fill="#8a2be2"/><rect x="283.5" y="52" width="10.0" height="10" fill="#27c93f"/><rect x="293.5" y="52" width="4.5" height="10" fill="#ffbd2e"/><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.00s" dur=".5s" fill="freeze"/><circle cx="27" cy="88" r="5" fill="#00f0ff"/><text x="38" y="92" fill="#e0e0ff" font-size="12">JavaScript <tspan fill="#7a7aa8">45.0%</tspan></text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.15s" dur=".5s" fill="freeze"/><circle cx="177" cy="88" r="5" fill="#ff00c8"/><text x="188" y="92" fill="#e0e0ff" font-size="12">PHP <tspan fill="#7a7aa8">41.6%</tspan></text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.30s" dur=".5s" fill="freeze"/><circle cx="27" cy="114" r="5" fill="#8a2be2"/><text x="38" y="118" fill="#e0e0ff" font-size="12">Blade <tspan fill="#7a7aa8">8.1%</tspan></text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.45s" dur=".5s" fill="freeze"/><circle cx="177" cy="114" r="5" fill="#27c93f"/><text x="188" y="118" fill="#e0e0ff" font-size="12">CSS <tspan fill="#7a7aa8">3.6%</tspan></text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.60s" dur=".5s" fill="freeze"/><circle cx="27" cy="140" r="5" fill="#ffbd2e"/><text x="38" y="144" fill="#e0e0ff" font-size="12">Python <tspan fill="#7a7aa8">1.6%</tspan></text></g>
+</g>
+</svg>

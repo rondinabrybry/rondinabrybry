@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="210" viewBox="0 0 320 210">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05010f"/><stop offset="1" stop-color="#0b0628"/></linearGradient>
+  <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00f0ff"/><stop offset=".5" stop-color="#8a2be2"/><stop offset="1" stop-color="#ff00c8"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#00f0ff" stroke-opacity=".06"/></pattern>
+</defs>
+<rect width="320" height="210" rx="12" fill="url(#bg)"/>
+<rect width="320" height="210" rx="12" fill="url(#grid)"/>
+<rect x="1" y="1" width="318" height="208" rx="12" fill="none" stroke="url(#neon)" stroke-width="1.5"/>
+<g font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
+<text x="22" y="34" fill="#00f0ff" font-size="15" font-weight="700" filter="url(#glow)">&gt; telemetry.stats</text>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.00s" dur=".5s" fill="freeze"/><text x="22" y="66" fill="#ff00c8" font-size="12">&gt;</text><text x="38" y="66" fill="#7a7aa8" font-size="12">TOTAL STARS</text><text x="300" y="66" fill="#e0e0ff" font-size="13" font-weight="700" text-anchor="end">0</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.15s" dur=".5s" fill="freeze"/><text x="22" y="90" fill="#ff00c8" font-size="12">&gt;</text><text x="38" y="90" fill="#7a7aa8" font-size="12">COMMITS (1Y)</text><text x="300" y="90" fill="#e0e0ff" font-size="13" font-weight="700" text-anchor="end">30</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.30s" dur=".5s" fill="freeze"/><text x="22" y="114" fill="#ff00c8" font-size="12">&gt;</text><text x="38" y="114" fill="#7a7aa8" font-size="12">PULL REQUESTS</text><text x="300" y="114" fill="#e0e0ff" font-size="13" font-weight="700" text-anchor="end">0</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.45s" dur=".5s" fill="freeze"/><text x="22" y="138" fill="#ff00c8" font-size="12">&gt;</text><text x="38" y="138" fill="#7a7aa8" font-size="12">ISSUES</text><text x="300" y="138" fill="#e0e0ff" font-size="13" font-weight="700" text-anchor="end">0</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.60s" dur=".5s" fill="freeze"/><text x="22" y="162" fill="#ff00c8" font-size="12">&gt;</text><text x="38" y="162" fill="#7a7aa8" font-size="12">PUBLIC REPOS</text><text x="300" y="162" fill="#e0e0ff" font-size="13" font-weight="700" text-anchor="end">4</text></g><g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.75s" dur=".5s" fill="freeze"/><text x="22" y="186" fill="#ff00c8" font-size="12">&gt;</text><text x="38" y="186" fill="#7a7aa8" font-size="12">CONTRIBS (1Y)</text><text x="300" y="186" fill="#e0e0ff" font-size="13" font-weight="700" text-anchor="end">546</text></g>
+</g>
+</svg>

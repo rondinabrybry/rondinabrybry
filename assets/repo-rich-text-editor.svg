@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="125" viewBox="0 0 400 125">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05010f"/><stop offset="1" stop-color="#0b0628"/></linearGradient>
+  <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00f0ff"/><stop offset=".5" stop-color="#8a2be2"/><stop offset="1" stop-color="#ff00c8"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#00f0ff" stroke-opacity=".06"/></pattern>
+</defs>
+<rect width="400" height="125" rx="12" fill="url(#bg)"/>
+<rect width="400" height="125" rx="12" fill="url(#grid)"/>
+<rect x="1" y="1" width="398" height="123" rx="12" fill="none" stroke="url(#neon)" stroke-width="1.5"/>
+<g font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
+<text x="22" y="34" fill="#00f0ff" font-size="15" font-weight="700" filter="url(#glow)">&gt; rich-text-editor</text>
+<text x="22" y="62" fill="#e0e0ff" font-size="12">No description yet.</text>
+<circle cx="27" cy="96" r="5" fill="#f1e05a"/>
+<text x="38" y="100" fill="#7a7aa8" font-size="12">JavaScript</text>
+<text x="200" y="100" fill="#ff00c8" font-size="12">★ 0</text>
+<text x="260" y="100" fill="#ff00c8" font-size="12">⑂ 0</text>
+</g>
+</svg>
