@@ -87,7 +87,7 @@ const ken = {
 ## `> ping ken`
 
 <p align="center">
-  <a href="[https://bruhh.space](https://bruhhh-space-git-main-rondinabrybrys-projects.vercel.app/)"><img src="https://img.shields.io/badge/Website-05010f?style=for-the-badge&logo=googlechrome&logoColor=00f0ff" /></a>
+  <a href="https://bruhhh-space-git-main-rondinabrybrys-projects.vercel.app/"><img src="https://img.shields.io/badge/Website-05010f?style=for-the-badge&logo=googlechrome&logoColor=00f0ff" /></a>
   <a href="mailto:rondinabrybry1@gmail.com"><img src="https://img.shields.io/badge/Email-05010f?style=for-the-badge&logo=gmail&logoColor=ff00c8" /></a>
 </p>
 
