@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="120" viewBox="0 0 1000 120">
+  <defs>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00f0ff"/><stop offset=".5" stop-color="#8a2be2"/><stop offset="1" stop-color="#ff00c8"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <path fill="url(#neon)" opacity=".35">
+    <animate attributeName="d" dur="6s" repeatCount="indefinite"
+      values="M0 60 Q250 20 500 60 T1000 60 V120 H0Z;M0 60 Q250 100 500 60 T1000 60 V120 H0Z;M0 60 Q250 20 500 60 T1000 60 V120 H0Z"/>
+  </path>
+  <path fill="#05010f" opacity=".85">
+    <animate attributeName="d" dur="4s" repeatCount="indefinite"
+      values="M0 80 Q250 110 500 80 T1000 80 V120 H0Z;M0 80 Q250 50 500 80 T1000 80 V120 H0Z;M0 80 Q250 110 500 80 T1000 80 V120 H0Z"/>
+  </path>
+  <text x="500" y="45" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="20" fill="#e0e0ff" filter="url(#glow)" letter-spacing="4">teach. build. ship. repeat.</text>
+</svg>

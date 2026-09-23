@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05010f"/><stop offset=".6" stop-color="#1a0840"/><stop offset="1" stop-color="#003a4a"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00f0ff"/><stop offset=".5" stop-color="#8a2be2"/><stop offset="1" stop-color="#ff00c8"/>
+    </linearGradient>
+    <filter id="glow" x="-10%" y="-30%" width="120%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#00f0ff" stroke-opacity=".12"/>
+    </pattern>
+    <clipPath id="c"><rect width="1000" height="260" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="1000" height="260" fill="url(#bg)"/>
+    <!-- perspective floor grid -->
+    <g transform="translate(0 170)">
+      <rect y="0" width="1000" height="90" fill="url(#grid)">
+        <animate attributeName="y" from="0" to="40" dur="2s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <line x1="0" y1="170" x2="1000" y2="170" stroke="url(#neon)" stroke-width="2" filter="url(#glow)"/>
+    <!-- sun -->
+    <circle cx="500" cy="170" r="90" fill="url(#neon)" opacity=".18"/>
+    <!-- stars -->
+    <g fill="#fff">
+      <circle cx="80" cy="40" r="1.5"><animate attributeName="opacity" values="1;.2;1" dur="2s" repeatCount="indefinite"/></circle>
+      <circle cx="220" cy="90" r="1"><animate attributeName="opacity" values=".2;1;.2" dur="3s" repeatCount="indefinite"/></circle>
+      <circle cx="760" cy="50" r="1.5"><animate attributeName="opacity" values="1;.3;1" dur="2.5s" repeatCount="indefinite"/></circle>
+      <circle cx="900" cy="110" r="1"><animate attributeName="opacity" values=".3;1;.3" dur="1.8s" repeatCount="indefinite"/></circle>
+      <circle cx="640" cy="30" r="1"><animate attributeName="opacity" values="1;.2;1" dur="3.2s" repeatCount="indefinite"/></circle>
+      <circle cx="350" cy="35" r="1.2"><animate attributeName="opacity" values=".2;1;.2" dur="2.2s" repeatCount="indefinite"/></circle>
+    </g>
+    <!-- scanline -->
+    <rect y="-30" width="1000" height="30" fill="#00f0ff" opacity=".05">
+      <animate attributeName="y" from="-30" to="260" dur="5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x="1" y="1" width="998" height="258" rx="16" fill="none" stroke="url(#neon)" stroke-width="2"/>
+  <g font-family="'Orbitron','Segoe UI','Arial Black',sans-serif" text-anchor="middle">
+    <text x="500" y="120" font-size="72" font-weight="900" fill="none" stroke="#00f0ff" stroke-width="1.5" filter="url(#glow)" letter-spacing="6">BACKEND.DUDE</text>
+    <text x="500" y="120" font-size="72" font-weight="900" fill="#ffffff" letter-spacing="6">BACKEND.DUDE
+      <animate attributeName="opacity" values="1;1;.4;1;1;.7;1" keyTimes="0;.8;.82;.84;.9;.92;1" dur="4s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <text x="500" y="155" text-anchor="middle" font-family="'JetBrains Mono',Consolas,monospace" font-size="16" fill="#00f0ff" letter-spacing="3">rondinabrybry · full-stack · cebu ph</text>
+</svg>
