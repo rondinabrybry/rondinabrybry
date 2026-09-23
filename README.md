@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://bruhh.space">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=700&color=00F0FF&center=true&vCenter=true&width=640&lines=%3E+Initializing+backend.dude...;%3E+Laravel+%2B+Next.js+Full-Stack+Dev;%3E+IT+Instructor+%7C+Dept.+Chair+%40+NCC;%3E+Building+ERPs%2C+school+systems%2C+CMSs;%3E+Why+use+many+token+when+few+token+do+trick" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=700&color=00F0FF&center=true&vCenter=true&width=640&lines=%3E+Initializing+backend.dude...;%3E+Laravel+%2B+Next.js+Full-Stack+Dev;%3E+IT+Instructor+%7C+Gwapo+%40+NCC;%3E+Building+ERPs%2C+school+systems%2C+CMSs;%3E+Why+use+many+token+when+few+token+do+trick" />
   </a>
 </p>
 
@@ -27,7 +27,7 @@
 ```ts
 const ken = {
   alias:     "backend.dude",
-  role:      ["Full-Stack Developer", "IT Instructor", "Department Chair"],
+  role:      ["Full-Stack Developer", "IT Instructor", "Tagapagligtas"],
   base:      "Danao City, Cebu, PH 🇵🇭",
   building:  ["Waste Management ERP", "Columbary System", "School Management System"],
   teaching:  ["Database Systems", "Web Dev", "IT Fundamentals"],
