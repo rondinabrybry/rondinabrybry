@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <a href="https://bruhh.space">
+  <a href="[https://bruhh.space](https://bruhhh-space-git-main-rondinabrybrys-projects.vercel.app/)">
     <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=700&color=00F0FF&center=true&vCenter=true&width=640&lines=%3E+Initializing+backend.dude...;%3E+Laravel+%2B+Next.js+Full-Stack+Dev;%3E+IT+Instructor+%7C+Gwapo+%40+NCC;%3E+Building+ERPs%2C+school+systems%2C+CMSs;%3E+Why+use+many+token+when+few+token+do+trick" />
   </a>
 </p>
@@ -87,9 +87,7 @@ const ken = {
 ## `> ping ken`
 
 <p align="center">
-  <a href="https://bruhh.space"><img src="https://img.shields.io/badge/Website-05010f?style=for-the-badge&logo=googlechrome&logoColor=00f0ff" /></a>
-  <a href="https://www.youtube.com/@DevClassPH"><img src="https://img.shields.io/badge/DevClassPH-05010f?style=for-the-badge&logo=youtube&logoColor=ff0033" /></a>
-  <a href="https://www.facebook.com/DevClassPH"><img src="https://img.shields.io/badge/Facebook-05010f?style=for-the-badge&logo=facebook&logoColor=1877f2" /></a>
+  <a href="[https://bruhh.space](https://bruhhh-space-git-main-rondinabrybrys-projects.vercel.app/)"><img src="https://img.shields.io/badge/Website-05010f?style=for-the-badge&logo=googlechrome&logoColor=00f0ff" /></a>
   <a href="mailto:rondinabrybry1@gmail.com"><img src="https://img.shields.io/badge/Email-05010f?style=for-the-badge&logo=gmail&logoColor=ff00c8" /></a>
 </p>
 
