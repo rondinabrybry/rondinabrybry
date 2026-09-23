@@ -17,7 +17,7 @@
 
 <!-- ░░░ HUD CARD ░░░ -->
 <p align="center">
-  <img src="./assets/hud.svg" width="100%" alt="system status" />
+  <img src="hud.svg" width="100%" alt="system status" />
 </p>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%" />
