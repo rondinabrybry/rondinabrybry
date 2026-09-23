@@ -27,13 +27,12 @@
 ```ts
 const ken = {
   alias:     "backend.dude",
-  role:      ["Full-Stack Developer", "IT Instructor", "Department Chair"],
+  role:      ["Full-Stack Developer", "IT Instructor", "Tagapagligtas"],
   base:      "Danao City, Cebu, PH 🇵🇭",
-  building:  ["Waste Management ERP", "Columbary System", "School Management System"],
+  building:  ["Web-Based ERP", "Columbary System", "School Management System"],
   teaching:  ["Database Systems", "Web Dev", "IT Fundamentals"],
-  channel:   "DevClassPH  // IT + database tutorials for college students",
   obsessed:  ["clean schemas", "RBAC", "self-hosting", "shipping fast"],
-  motto:     "why use many token when few token do trick 🪨",
+  motto:     "If you can't think outside the box, be the box",
 };
 ```
 
@@ -45,25 +44,6 @@ const ken = {
   <img src="https://skillicons.dev/icons?i=php,laravel,nodejs,python,mysql,sqlite,redis&theme=dark&perline=7" /><br/>
   <img src="https://skillicons.dev/icons?i=nextjs,react,ts,js,tailwind,html,css&theme=dark&perline=7" /><br/>
   <img src="https://skillicons.dev/icons?i=docker,linux,nginx,cloudflare,git,github,vscode&theme=dark&perline=7" />
-</p>
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%" />
-
-## `> ls ./projects --pinned`
-
-<p align="center">
-  <a href="https://github.com/rondinabrybry/brybry-sql-practice">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rondinabrybry&repo=brybry-sql-practice&theme=radical&bg_color=05010f&title_color=00f0ff&icon_color=ff00c8&text_color=e0e0ff&border_color=8a2be2" />
-  </a>
-  <a href="https://github.com/rondinabrybry/laravel-notifly">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rondinabrybry&repo=laravel-notifly&theme=radical&bg_color=05010f&title_color=00f0ff&icon_color=ff00c8&text_color=e0e0ff&border_color=8a2be2" />
-  </a>
-  <a href="https://github.com/rondinabrybry/rich-text-editor">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rondinabrybry&repo=rich-text-editor&theme=radical&bg_color=05010f&title_color=00f0ff&icon_color=ff00c8&text_color=e0e0ff&border_color=8a2be2" />
-  </a>
-  <a href="https://github.com/rondinabrybry/caveman">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rondinabrybry&repo=caveman&theme=radical&bg_color=05010f&title_color=00f0ff&icon_color=ff00c8&text_color=e0e0ff&border_color=8a2be2" />
-  </a>
 </p>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%" />
@@ -99,9 +79,7 @@ const ken = {
 ## `> ping ken`
 
 <p align="center">
-  <a href="https://bruhh.space"><img src="https://img.shields.io/badge/Website-05010f?style=for-the-badge&logo=googlechrome&logoColor=00f0ff" /></a>
-  <a href="https://www.youtube.com/@DevClassPH"><img src="https://img.shields.io/badge/DevClassPH-05010f?style=for-the-badge&logo=youtube&logoColor=ff0033" /></a>
-  <a href="https://www.facebook.com/DevClassPH"><img src="https://img.shields.io/badge/Facebook-05010f?style=for-the-badge&logo=facebook&logoColor=1877f2" /></a>
+  <a href="https://bruhhh-space-git-main-rondinabrybrys-projects.vercel.app/"><img src="https://img.shields.io/badge/Website-05010f?style=for-the-badge&logo=googlechrome&logoColor=00f0ff" /></a>
   <a href="mailto:rondinabrybry1@gmail.com"><img src="https://img.shields.io/badge/Email-05010f?style=for-the-badge&logo=gmail&logoColor=ff00c8" /></a>
 </p>
 
