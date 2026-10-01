@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://bruhh.space"><img src="https://img.shields.io/badge/PORTFOLIO-bruhh.space-00f0ff?style=for-the-badge&logo=vercel&logoColor=00f0ff&labelColor=05010f" /></a>
+  <a href="https://bruhhh-space-git-main-rondinabrybrys-projects.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-bruhh.space-00f0ff?style=for-the-badge&logo=vercel&logoColor=00f0ff&labelColor=05010f" /></a>
   <img src="https://img.shields.io/badge/LOCATION-CEBU%2C%20PH-ff00c8?style=for-the-badge&logo=googlemaps&logoColor=ff00c8&labelColor=05010f" />
   <img src="https://komarev.com/ghpvc/?username=rondinabrybry&label=PROFILE%20VIEWS&color=8a2be2&style=for-the-badge&labelColor=05010f" />
 </p>
